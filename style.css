@@ -448,7 +448,7 @@ header {
           }
         }
       }
-      curser:pointer;
+      cursor:pointer;
       padding:20px;
       background-color: var(--base-400);
       border-radius: 20px;
