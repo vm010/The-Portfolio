@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed Saeed</title>
+    <!-- tailwind cdn  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- main css style  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- icon before site name  -->
+    <link rel="icon" href="./image/icon.png" />
+  </head>
+  <body>
+    <!-- start header  -->
+    <header class="container mx-auto">
+      <a href="#" class="main-logo">
+        <div class="logo">M</div>
+        <div class="logo-text">ohamed Saeed</div>
+      </a>
+
+      <nav>
+        <ul id="menu">
+          <li>
+            <i class="fa-solid fa-house-user"></i>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <!-- <i class="fa-solid fa-fire-flame-curved"></i> -->
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <!-- <i class="fa-solid fa-diagram-project"></i> -->
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <!-- <i class="fa-solid fa-paper-plane"></i> -->
+            <a
+              href="mailto:mohamedsaeedo302@gmaol.com"
+              class="relative inline-block px-4 py-2 font-medium group"
+            >
+              <span
+                class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-white group-hover:-translate-x-0 group-hover:-translate-y-0"
+              ></span>
+              <span
+                class="absolute inset-0 w-full h-full bg-black border-1 border-white group-hover:bg-white"
+              ></span>
+              <span class="relative text-white group-hover:text-black"
+                >Contact Me</span
+              >
+            </a>
+          </li>
+        </ul>
+        <a class="toggle-icon" onclick="menuToggle()"
+          ><i class="fa-solid fa-sliders"></i
+        ></a>
+      </nav>
+    </header>
+    <!-- end header  -->
+
+    <!-- start main section  -->
+    <main>
+      <div class="bg">
+        <section class="hero container mx-auto">
+          <div class="hero-text">
+            <h1><small>Hi,I'm</small>Mohamed saeed</h1>
+            <p>
+              I'm a Frontend Developer who loves creating beautiful and
+              user-friendly websites. I have a strong foundation in HTML, CSS,
+              and JavaScript,<span class="span">
+                and I'm learning frameworks like React. In my free time, I enjoy
+                to learn more. I'm excited to start my career and work on
+                amazing projects. Feel free to check out my portfolio and get in
+                touch if you'd like to collaborate!</span
+              >
+            </p>
+            <div class="hero-buttons">
+              <a
+                href="#_"
+                class="relative inline-block px-4 py-2 font-medium group"
+              >
+                <span
+                  class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"
+                ></span>
+                <span
+                  class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"
+                ></span>
+                <span class="relative text-black group-hover:text-white"
+                  >View Resume</span
+                >
+              </a>
+              <a
+                href="mailto:mohamedsaeedo302@gmaol.com"
+                class="relative inline-block px-4 py-2 font-medium group"
+              >
+                <span
+                  class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"
+                ></span>
+                <span
+                  class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"
+                ></span>
+                <span class="relative text-black group-hover:text-white"
+                  >Contact Me</span
+                >
+              </a>
+            </div>
+
+            <div class="hero-icons">
+              <a href="https://www.facebook.com/1Mohamed.saeed/" target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                href="https://github.com/vm010?tab=repositories"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/mohame.d_saeed/"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/mohamed-saeed-16a91b220/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="hero-image">
+            <img
+              src="./image/WhatsApp Image 2024-11-15 at 16.47.13_680ec2e4.jpg"
+              alt="Hero Image"
+            />
+          </div>
+        </section>
+      </div>
+      <section class="logos container mx-auto">
+        <div class="marquee">
+          <div class="track">
+            <img src="./image/html.png" alt="" />
+            <img src="./image/css.png" alt="" />
+            <img src="./image/javascript.png" alt="" />
+            <img src="./image/react.png" alt="" />
+            <img src="./image/nextjs.png" alt="" />
+            <img src="./image/sass.png" alt="" />
+            <img src="./image/vscode.png" alt="" />
+            <img src="./image/azure.png" alt="" />
+            <img src="./image/html.png" alt="" />
+            <img src="./image/css.png" alt="" />
+            <img src="./image/javascript.png" alt="" />
+            <img src="./image/react.png" alt="" />
+            <img src="./image/nextjs.png" alt="" />
+            <img src="./image/sass.png" alt="" />
+            <img src="./image/vscode.png" alt="" />
+            <img src="./image/azure.png" alt="" />
+            <img src="./image/html.png" alt="" />
+            <img src="./image/css.png" alt="" />
+            <img src="./image/javascript.png" alt="" />
+            <img src="./image/react.png" alt="" />
+            <img src="./image/nextjs.png" alt="" />
+            <img src="./image/sass.png" alt="" />
+            <img src="./image/vscode.png" alt="" />
+            <img src="./image/azure.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- start skills section  -->
+
+      <section class="skills container mx-auto" id="skills">
+        <div class="main-text">
+          <p>Skills</p>
+          <h2>I Work Hard To Improve My Skills Regularly</h2>
+        </div>
+        <div class="skills-card-box">
+          <div class="card">
+            <div class="card-image">
+              <img src="./image/design.jpg" alt="" />
+            </div>
+            <div class="card-text">
+              <h3>Front-End Developer</h3>
+              <p>
+                Proficient in responsive design, performance optimization,
+                accessibility, and version control, with a focus on creating
+                user-friendly and visually appealing websites.
+              </p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Reactjs</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="./image/backend.jpg" alt="" />
+            </div>
+            <div class="card-text">
+              <h3>Back-End Developer</h3>
+              <p>
+                Proficient in server-side development, database management, API
+                integration, and security practices, with a focus on creating
+                robust and scalable applications.
+              </p>
+              <ul>
+                <li>Node JS</li>
+                <li>Express</li>
+                <li>JS</li>
+                <li>Mongo DB</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="./image/marketing.jpg" alt="" />
+            </div>
+            <div class="card-text">
+              <h3>Social Media Marketing</h3>
+              <p>
+                Proficient in content creation, audience engagement, analytics,
+                and campaign management, with a focus on building brand
+                awareness and driving user engagement.
+              </p>
+              <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Snapchat</li>
+                <li>Twitter</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end skills section  -->
+      <!-- start project section  -->
+      <section class="projects container mx-auto" id="projects">
+        <div class="main-text">
+          <p>Previous</p>
+          <h2>Completed Projects</h2>
+        </div>
+        <div class="projects-container">
+          <div class="project">
+            <div class="project-text">
+              <h3
+              class="title">Project details</h3>
+              <p>this project i built it to exercise my knowladge</p>
+            </div>
+            <img src="./image/bento-1.jpg" alt="" />
+          </div>
+          <div class="project">
+             <div class="project-text">
+              <h3
+              class="title">Project details</h3>
+              <p>this project i built it to exercise my knowladge</p>
+            </div>
+            <img src="./image/bento-2.jpg" alt="" />
+          </div>
+          <div class="project">
+             <div class="project-text">
+              <h3
+              class="title">Project details</h3>
+              <p>this project i built it to exercise my knowladge</p>
+            </div>
+            <img src="./image/bento-3.jpg" alt="" />
+          </div>
+          <div class="project">
+             <div class="project-text">
+              <h3
+              class="title">Project details</h3>
+              <p>this project i built it to exercise my knowladge</p>
+            </div>
+            <img src="./image/bento-4.jpg" alt="" />
+          </div>
+          <div class="project">
+             <div class="project-text">
+              <h3
+              class="title">Project details</h3>
+              <p>this project i built it to exercise my knowladge</p>
+            </div>
+            <img src="./image/bento-5.jpg" alt="" />
+          </div>
+          <div class="project">
+             <div class="project-text">
+              <h3
+              class="title">Project details</h3>
+              <p>this project i built it to exercise my knowladge</p>
+            </div>
+            <img src="./image/bento-6.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- end project section  -->
+      <!-- start ai section  -->
+      <!-- end ai section  -->
+    </main>
+    <!-- end main section  -->
+    <footer>
+      <p class="copyright">
+        © 2024 <span>Mohamed Saeed</span> All Right Reserved
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
