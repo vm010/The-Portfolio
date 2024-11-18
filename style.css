@@ -313,7 +313,7 @@ header {
       flex-direction: column;
       
     }
-    /* From Uiverse.io by SteveBloX */
+
     .card {
       box-sizing: border-box;
       width: 400px;
@@ -448,7 +448,7 @@ header {
           }
         }
       }
-
+      curser:pointer;
       padding:20px;
       background-color: var(--base-400);
       border-radius: 20px;
